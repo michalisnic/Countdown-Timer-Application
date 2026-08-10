@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    text-align: center; 
+    background-color: lightblue;
+}
+
+
+.container{
+  background-image: url(apple_image.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.timer:hover{
+  color: yellow;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+}
+
+button {
+    font-size: 18px;
+    width: 100px;
+    border-radius: 8px;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.timer{
+  font-family: 'Orbitron', sans-serif;
+  background-color: black;
+  color: white; 
+  font-size: 24px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    padding: 100px;
+    margin: 100px;
+}
+
+.start{
+  font-family: 'Roboto', sans-serif;
+  background-color: green;
+  color: white;
+}
+
+button:hover{
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+}
+
+.pause{
+  font-family: 'Roboto', sans-serif;
+  background-color: orange;
+  color: white;
+}
+
+.stop{
+  font-family: 'Roboto', sans-serif;
+  background-color: red;
+  color: white;
+}
+
+.footer{
+  padding: 60px;
+}
